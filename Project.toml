@@ -1,0 +1,13 @@
+name = "MyPkgTemplatePackage2"
+uuid = "ad22ced4-d171-4611-a833-9f8caa0103f2"
+authors = ["Benedikt Ehinger <behinger@uos.de> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
